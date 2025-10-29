@@ -7,10 +7,10 @@ int main () {
   cout << "Masukkan sebuah bilangan: ";
   cin >> bilangan; 
   
-  if (bilangan % 2 == 0) {
+  if (bilangan % 2 == 0)
     cout << "Bilangan tersbeut adalah bilangan GENAP" << endl;
-  } else {
+  else
     cout << "Bilangan tersebut adalah bilangan GANJIL" << endl;
-  }
+
 return 0;
 }
